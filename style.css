@@ -17,7 +17,6 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     background-color: #1F1F1F;
-    /* Fondo del header */
 }
 
 header img {
@@ -35,14 +34,12 @@ nav ul li {
 
 nav ul li a {
     color: #BB86FC;
-    /* Color de enlaces */
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
     color: #03DAC6;
-    /* Color de enlace al pasar el mouse */
 }
 
 main {
@@ -55,7 +52,6 @@ h1,
 h2,
 h3 {
     color: #BB86FC;
-    /* Color de los títulos */
 }
 
 h1 {
@@ -98,7 +94,6 @@ a.btn {
 
 a.btn:hover {
     background-color: #BB86FC;
-    /* Cambia el color al pasar el mouse */
     color: #FFFFFF;
 }
 
@@ -113,9 +108,16 @@ footer p {
     color: #BBBBBB;
 }
 
-/* Imagenes */
 img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+}
+span.highlight {
+    color: #03DAC6;
+    font-weight: bold;
+}
+span.highlight1 {
+    color: #802faf;
+    font-weight: bold;
 }
