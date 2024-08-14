@@ -1,24 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyfirstHtmlPage</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio de Manuel Alexander Ortega Quiñones</title>
 </head>
+
 <body>
+    <a id="#inicio" hidden></a>
     <header>
+        <img src="img/logoautonoma.png" alt="Logo Universidad Autónoma de Chile">
         <nav>
             <ul>
-                <li>Home</li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
             </ul>
-            <ul>
-                <li>Compras</li>
-            </ul>
-            <ul>
-                <li>Quienes somos</li>
-            </ul>
-</nav>
-    <img src = "descarga.png"/>
+        </nav>
     </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h1>Sobre mí</h1>
+            <img src="img/yo.png" alt="Foto de Manuel Alexander Ortega Quiñones" title="soy yo">
+
+            <p>Mi nombre completo es Manuel Alexander Ortega Quiñones, estudiante de <span id="carrera">Ingeniería Civil
+                    Informática</span> en la Universidad <span id="uni">Autónoma de Chile</span> en la sede de Temuco,
+                actualmente cursando el cuarto año, segundo semestre. Nací el 16/04/2002, y he dedicado mi formación
+                académica a desarrollar competencias profesionales estudiando diferentes áreas enfocadas en el
+                desarrollo. Mi enfoque se centra en el desarrollo de aplicaciones web y móviles, además de la
+                programación de software en general. Estoy comprometido con seguir mejorando mis habilidades de
+                programación, habilidades blandas, y por supuesto, como ingeniero civil.</p>
+
+            <a href="https://github.com/DvUo" target="_blank" class="btn">Ver en
+                GitHub</a>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>En mi tiempo libre me gusta jugar videojuegos, principalmente shooters (aunque me gusta de casi todo),
+                escuchar música y hacer ejercicio. También me gusta salir a caminar y comer bastante. Me interesa la
+                tecnología y la informática, por lo que siempre estoy buscando aprender cosas nuevas y mejorar mis
+                habilidades en programación.</p>
+        </section>
+
+        <section id="conocimientos">
+            <h2>Conocimientos</h2>
+            <p>En el transcurso de mi carrera he aprendido a programar en varios <span class="highlight1">lenguajes de
+                    programación</span>, sobre todo orientados a objetos. También he aprendido a usar diferentes
+                <span>herramientas de desarrollo</span> que me han permitido desarrollar proyectos pequeños. Además, he
+                aprendido
+                a trabajar en equipo, mejorar habilidades blandas claves, realizar tutorías que me permitieron aprender
+                acerca de la enseñanza y desarrollar proyectos de manera eficiente.
+            </p>
+        </section>
+
+        <section id="Tecnologias">
+            <h2>Tecnologías</h2>
+            <p>En mi viaje por el mundo del desarrollo web, he cultivado <span class="highlight1">experiencia</span> y
+                <span class="highlight">habilidades</span> en una variedad de tecnologías. Mi stack tecnológico incluye:
+            </p>
+
+            <div>
+                <div>
+                    <h3>Web</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Wordpress</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>NodeJS</li>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Lenguajes de programación</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VSCode</li>
+                        <li>npm</li>
+                        <li>WordPress</li>
+                        <li>Docker</li>
+                        <li>NetBeans</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <a href="#inicio" class="btn">Volver al inicio</a>
+        <footer>
+            <p>&copy; 2024 Manuel Alexander Ortega Quiñones.</p>
+        </footer>
 </body>
+
 </html>
