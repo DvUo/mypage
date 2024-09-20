@@ -5,112 +5,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Portafolio de Manuel Alexander Ortega Quiñones</title>
+    
+    <title>Portafolio</title>
 </head>
 
 <body>
-    <section id="sobre-mi">
-    <header>
-        <img src="img/logoautonoma.png" alt="Logo Universidad Autónoma de Chile">
-        <nav>
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#tecnologias">Tecnologías</a></li>
-            </ul>
-        </nav>
-    </header>
-
+        
+        <header class="container-nav" >
+                        <section class = "logo" id="sobremi">
+                                <img src="img/logo.png" alt="Logo" >
+                        </section>
+                        <nav class = "navbar">
+                                <ul>
+                                        <li><a class = "navbar-buttons" href="#sobremi">Sobre mí</a></li>
+                                        <li><a class = "navbar-buttons" href="#hobbies">Hobbies</a></li>
+                                        <li><a class = "navbar-buttons" href="#knowledge">Conocimientos</a></li>
+                                        <li><a class = "navbar-buttons" href="#Tecnologias">Tecnologías</a></li>
+                                </ul>
+                        </nav>
+        </header>
+        
     <main>
-        <section id="sobre-mi">
-            <h1>Sobre mí</h1>
-            <img src="img/yo.png" alt="Foto de Manuel Alexander Ortega Quiñones" title="soy yo">
+        <section class="container first-section">
+                <div class="sobre-mi">
+                        <h1 class="Saludo-principal">Hola soy, <span id="name">Manuel Ortega</span></h1>
+                        
+                        <p>Soy estudiante de <span class="highlight1">Ingeniería Civil
+                                Informática</span> en la Universidad <span class="highlight">Autónoma de Chile</span> en la sede de Temuco,
+                                actualmente cursando el cuarto año, segundo semestre. Nací el 16/04/2002, y he dedicado mi formación
+                                académica a desarrollar competencias profesionales estudiando diferentes áreas enfocadas en el
+                                desarrollo. Mi enfoque se centra en el desarrollo de aplicaciones web y móviles, además de la
+                                programación de software en general. Estoy comprometido con seguir mejorando mis habilidades de
+                                programación y blandas.</p>
+                        <div class="btns-about-me">
+                                <a href="https://github.com/DvUo" target="_blank" class="btn git">
+                                    <i class="fab fa-github"></i>Ver en GitHub</a>
 
-            <p>Mi nombre completo es Manuel Alexander Ortega Quiñones, estudiante de <span id="carrera">Ingeniería Civil
-                    Informática</span> en la Universidad <span id="uni">Autónoma de Chile</span> en la sede de Temuco,
-                actualmente cursando el cuarto año, segundo semestre. Nací el 16/04/2002, y he dedicado mi formación
-                académica a desarrollar competencias profesionales estudiando diferentes áreas enfocadas en el
-                desarrollo. Mi enfoque se centra en el desarrollo de aplicaciones web y móviles, además de la
-                programación de software en general. Estoy comprometido con seguir mejorando mis habilidades de
-                programación, habilidades blandas, y por supuesto, como ingeniero civil.</p>
-
-            <a href="https://github.com/DvUo" target="_blank" class="btn">Ver en
-                GitHub</a>
+                                <a href="mailto:xalex0905@gmail.com" target="_blank" class="btn mailto">
+                                    <i class="fas fa-envelope"></i>xalex0905@gmail.com</a>
+                        </div>                        
+                </div>
+                <div class="container-button-hobbie">
+                    <a class="btn-hobbies" href="#hobbies"><i class="fas fa-chevron-down"></i>Hobbies<i class="fas fa-chevron-down"></i></a>
+                </div>
+                <section></section>
         </section>
-
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p>En mi tiempo libre me gusta jugar videojuegos, principalmente shooters (aunque me gusta de casi todo),
-                escuchar música y hacer ejercicio. También me gusta salir a caminar y comer bastante. Me interesa la
-                tecnología y la informática, por lo que siempre estoy buscando aprender cosas nuevas y mejorar mis
-                habilidades en programación.</p>
-        </section>
-
-        <section id="conocimientos">
-            <h2>Conocimientos</h2>
-            <p>En el transcurso de mi carrera he aprendido a programar en varios <span class="highlight1">lenguajes de
-                    programación</span>, sobre todo orientados a objetos. También he aprendido a usar diferentes
-                <span>herramientas de desarrollo</span> que me han permitido desarrollar proyectos pequeños. Además, he
-                aprendido
-                a trabajar en equipo, mejorar habilidades blandas claves, realizar tutorías que me permitieron aprender
-                acerca de la enseñanza y desarrollar proyectos de manera eficiente.
-            </p>
-        </section>
-
-        <section id="Tecnologias">
-            <h2>Tecnologías</h2>
-            <p>En mi viaje por el mundo del desarrollo web, he cultivado <span class="highlight1">experiencia</span> y
-                <span class="highlight">habilidades</span> en una variedad de tecnologías. Mi stack tecnológico incluye:
-            </p>
-
-            <div >
-                <div>
-                    <h3>Web</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Wordpress</li>
-                    </ul>
+        
+        <div class="container hobbies-knowledge" id="hobbies">
+                <section id="hobbies">
+                    <h2 class = "titles-hk highlight1">Hobbies</h2>
+                    <p>En mi tiempo libre me gusta jugar videojuegos, principalmente shooters (aunque me gusta de casi todo),
+                        escuchar música y hacer ejercicio. También me gusta salir a caminar y comer bastante. Me interesa la
+                        tecnología y la informática, por lo que siempre estoy buscando aprender cosas nuevas y mejorar mis
+                        habilidades en programación.</p>
+                </section>
+            
+            <section id="knowledge">
+                <h2 class = "titles-hk highlight1">Conocimientos</h2>
+                <p>En el transcurso de mi carrera he aprendido a programar en varios <span class="highlight">lenguajes de
+                        programación</span>, sobre todo orientados a objetos. También he aprendido a usar diferentes
+                    <span>herramientas de desarrollo</span> que me han permitido desarrollar proyectos pequeños. Además, he
+                    aprendido
+                    a trabajar en equipo, mejorar habilidades blandas claves, realizar tutorías que me permitieron aprender
+                    acerca de la enseñanza y desarrollar proyectos de manera eficiente.
+                </p>
+            </section>
+        </div>
+        
+        <div class="container technology">
+            
+                <h2 class="titles-hk highlight">Tecnologías</h2>
+                <p>En mi viaje por el mundo del desarrollo web, he cultivado <span class="highlight1">experiencia</span> y
+                    <span class="highlight">habilidades</span> en una variedad de tecnologías. Mi stack tecnológico incluye:
+                </p>
+            <section id="Tecnologias" class="technology-grid">
+                <div class="technology-web">
+                    <h2 class="title-table">Web</h2>
+                    <table class = "table t-web">
+                        <tr>
+                            <td>HTML</td>
+                            <td>CSS</td>
+                            <td>Wordpress</td>
+                        </tr>
+                    </table>
                 </div>
 
-                <div>
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>PHP</li>
-                        <li>NodeJS</li>
-                        <li>Laravel</li>
-                        <li>MySQL</li>
-                    </ul>
+                <div class="technology-backend">  
+                    <h2 class="title-table">Backend</h3>
+                    <table class="table t-backend">
+                        <tr>
+                            <td>PHP</td>
+                            <td>NodeJS</td>
+                            <td>Laravel</td>
+                            <td>MySQL</td>
+                        </tr>
+                    </table>
                 </div>
 
-                <div>
-                    <h3>Lenguajes de programación</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>JavaScript</li>
-                    </ul>
+                <div class="technology-Languagesp">
+                    <h2 class="title-table">Lenguajes de programación</h2>
+                    <table class="table t-programmingl">
+                        <tr>
+                            <td>Python</td>
+                            <td>Java</td>
+                            <td>JavaScript</td>
+                        </tr>
+                    </table>
                 </div>
 
-                <div>
-                    <h3>Herramientas</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VSCode</li>
-                        <li>npm</li>
-                        <li>WordPress</li>
-                        <li>Docker</li>
-                        <li>NetBeans</li>
-                    </ul>
+                <div class="technology-tools">
+                    <h2 class="title-table">Herramientas</h2>
+                    <table class="table t-tools">
+                        <tr>
+                            <td>Git</td>
+                            <td>GitHub</td>
+                            <td>VSCode</td>
+                            <td>npm</td>
+                        </tr>
+                        <tr>
+                            <td>WordPress</td>
+                            <td>Docker</td>
+                            <td>NetBeans</td>
+                        </tr>
+                    </table>
                 </div>
-            </div>
-        </section>
-        <div>
+            </section>
+          
+        </div>
+        
             <form>
                 <label  class="form-label">Contactame</label>
                 <div class="mb-3">
@@ -125,19 +150,17 @@
 
                 <button type="submit" class="btn btn-primary" onclick="enviar()">enviar</button>
             </form>
-            <a href="#sobre-mi" class="btn">Volver al inicio</a>
+            <a href="#sobremi" class="btn">Volver al inicio</a>
         </div>
         <footer>
-            <p>&copy; 2024 Manuel Alexander Ortega Quiñones.</p>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous">
-        </script>
+
+
         <script>  
             function enviar(){
                 alert([document.getElementById("Email").value, document.getElementById("Textarea1").value]);
             }
+
         </script>
 
     </main>
