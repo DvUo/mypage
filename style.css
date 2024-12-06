@@ -344,3 +344,9 @@ main{
         margin-top: 1em;
     }
 }
+.div-links{
+
+    display:flex;
+    justify-content: center;
+    margin: 2em 0;
+}
